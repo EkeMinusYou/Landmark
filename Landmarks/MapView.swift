@@ -8,7 +8,7 @@ import SwiftUI
 
 struct MapView: View {
   var body: some View {
-      Map(initialPosition: .region(region))
+    Map(initialPosition: .region(region))
   }
 
   private var region: MKCoordinateRegion {
