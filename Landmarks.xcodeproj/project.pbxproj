@@ -15,6 +15,7 @@
 		DB84DAF12BDF7EDF0016A4F5 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = DB84DAF02BDF7EDF0016A4F5 /* landmarkData.json */; };
 		DB84DAF32BDF7F1F0016A4F5 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB84DAF22BDF7F1F0016A4F5 /* Landmark.swift */; };
 		DB84DAF82BDF8D670016A4F5 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB84DAF72BDF8D670016A4F5 /* ModelData.swift */; };
+		DB84DAFB2BDFD7920016A4F5 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB84DAFA2BDFD7920016A4F5 /* LandmarkRow.swift */; };
 		DB93BA412BDEACEF0019F2F3 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB93BA402BDEACEF0019F2F3 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +29,7 @@
 		DB84DAF02BDF7EDF0016A4F5 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
 		DB84DAF22BDF7F1F0016A4F5 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		DB84DAF72BDF8D670016A4F5 /* ModelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		DB84DAFA2BDFD7920016A4F5 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LandmarkRow.swift; path = Landmarks/Views/LandmarkRow.swift; sourceTree = SOURCE_ROOT; };
 		DB93BA402BDEACEF0019F2F3 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,6 +84,7 @@
 		DB84DAF52BDF8D1F0016A4F5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				DB84DAFA2BDFD7920016A4F5 /* LandmarkRow.swift */,
 				DB93BA402BDEACEF0019F2F3 /* MapView.swift */,
 				DB04DDC22BDEAAF8009C8C1C /* CircleImage.swift */,
 				DB04DDB62BDBDA8F009C8C1C /* ContentView.swift */,
@@ -182,6 +185,7 @@
 				DB04DDB52BDBDA8F009C8C1C /* LandmarksApp.swift in Sources */,
 				DB04DDC32BDEAAF8009C8C1C /* CircleImage.swift in Sources */,
 				DB84DAF32BDF7F1F0016A4F5 /* Landmark.swift in Sources */,
+				DB84DAFB2BDFD7920016A4F5 /* LandmarkRow.swift in Sources */,
 				DB84DAF82BDF8D670016A4F5 /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
