@@ -100,9 +100,9 @@
 		DB4EF5642BE639B400168D9B /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				DB4EF5612BE6386300168D9B /* FavoriteButton.swift */,
 				DB93BA402BDEACEF0019F2F3 /* MapView.swift */,
 				DB04DDC22BDEAAF8009C8C1C /* CircleImage.swift */,
-				DB4EF5612BE6386300168D9B /* FavoriteButton.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
