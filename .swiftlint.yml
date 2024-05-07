@@ -1,2 +1,16 @@
 trailing_comma:
-    mandatory_comma: true
+  mandatory_comma: true
+
+opt_in_rules:
+  - closure_end_indentation
+  - closure_spacing
+  - empty_count
+  - explicit_init
+  - fatal_error_message
+  - first_where
+  - nimble_operator
+  - redundant_nil_coalescing
+  - sorted_imports
+
+excluded:
+  - build
