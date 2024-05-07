@@ -1,3 +1,4 @@
+import MyLibrary
 import SwiftUI
 
 struct LandmarkDetails: View {
@@ -30,6 +31,7 @@ struct LandmarkDetails: View {
           Text(landmark.park)
           Spacer()
           Text(landmark.state)
+          TestText()
         }
         .font(.subheadline)
         .foregroundStyle(.secondary)

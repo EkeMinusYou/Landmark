@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -27,6 +27,7 @@
 		DB4EF57F2BE957F700168D9B /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4EF57E2BE957F700168D9B /* CategoryHome.swift */; };
 		DB4EF5812BE9613A00168D9B /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4EF5802BE9613A00168D9B /* CategoryRow.swift */; };
 		DB4EF5832BE9644A00168D9B /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4EF5822BE9644A00168D9B /* CategoryItem.swift */; };
+		DB7638DF2BEA8FAA007D6252 /* MyLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = DB7638DE2BEA8FAA007D6252 /* MyLibrary */; };
 		DB84DAF12BDF7EDF0016A4F5 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = DB84DAF02BDF7EDF0016A4F5 /* landmarkData.json */; };
 		DB84DAF32BDF7F1F0016A4F5 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB84DAF22BDF7F1F0016A4F5 /* Landmark.swift */; };
 		DB84DAF82BDF8D670016A4F5 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB84DAF72BDF8D670016A4F5 /* ModelData.swift */; };
@@ -65,6 +66,7 @@
 		DB84DAFE2BE018D70016A4F5 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		DB84DB022BE13B330016A4F5 /* LandmarkDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetails.swift; sourceTree = "<group>"; };
 		DB93BA402BDEACEF0019F2F3 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		DBA0FA4C2BEA828A00D80556 /* MyLibrary */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = MyLibrary; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB7638DF2BEA8FAA007D6252 /* MyLibrary in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 		DB04DDA82BDBDA8F009C8C1C = {
 			isa = PBXGroup;
 			children = (
+				DBA0FA4C2BEA828A00D80556 /* MyLibrary */,
 				DB04DDB32BDBDA8F009C8C1C /* Landmarks */,
 				DB04DDB22BDBDA8F009C8C1C /* Products */,
 			);
@@ -216,6 +220,9 @@
 			dependencies = (
 			);
 			name = Landmarks;
+			packageProductDependencies = (
+				DB7638DE2BEA8FAA007D6252 /* MyLibrary */,
+			);
 			productName = Landmarks;
 			productReference = DB04DDB12BDBDA8F009C8C1C /* Landmarks.app */;
 			productType = "com.apple.product-type.application";
@@ -244,6 +251,9 @@
 				Base,
 			);
 			mainGroup = DB04DDA82BDBDA8F009C8C1C;
+			packageReferences = (
+				DB7638DD2BEA8FAA007D6252 /* XCLocalSwiftPackageReference "MyLibrary" */,
+			);
 			productRefGroup = DB04DDB22BDBDA8F009C8C1C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -500,6 +510,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		DB7638DD2BEA8FAA007D6252 /* XCLocalSwiftPackageReference "MyLibrary" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = MyLibrary;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DB7638DE2BEA8FAA007D6252 /* MyLibrary */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MyLibrary;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DB04DDA92BDBDA8F009C8C1C /* Project object */;
 }
