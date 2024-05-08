@@ -18,7 +18,7 @@ struct ContentView: View {
 
       LandmarkList()
         .tabItem {
-          Label("List", systemImage: "list")
+          Label("List", systemImage: "list.bullet")
         }
         .tag(Tab.list)
     }
